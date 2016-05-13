@@ -1,4 +1,5 @@
 {
+  "preserve-empty-lines-between-children-rules": true,
   "sort-order": [
     [ "$variable" ],
     [ "@atrule" ],
@@ -92,6 +93,7 @@
       "color",
       "opacity",
       "box-shadow",
+      "filter",
 
       "font",
       "font-style",
