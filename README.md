@@ -40,7 +40,20 @@ gulp.task('cleanup', function () {
   }
 ```
 
-4) Run:
+4) Use correct media query @includes at your project:
+
+```json
+    [
+      "@include retina",
+      "@include mobile",
+      "@include ipad",
+      "@include mobile-and-ipad",
+      "@include smallscreen"
+    ]
+```
+
+
+5) Run:
 
 ```
 npm run cleanup
