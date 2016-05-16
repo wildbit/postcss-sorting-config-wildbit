@@ -1,5 +1,7 @@
 {
   "preserve-empty-lines-between-children-rules": true,
+  "empty-lines-before-comment": 1,
+  "empty-lines-after-comment": 0,
   "sort-order": [
     [ "$variable" ],
     [ "@atrule" ],
