@@ -8,13 +8,14 @@ Sorts CSS properties in the order expected by [stylelint-config-wildbit](https:/
 
 ```
 npm install --save-dev postcss-scss postcss-sorting
+npm install --save-dev wildbit/postcss-sorting-config-wildbit
 ```
 
 2) Update `gulpfile.js`:
 
 ```js
 var sorting = require('postcss-sorting');
-var sortingConfig = require('scss-sorting.json');
+var sortingConfig = require('./node_modules/postcss-sorting-config-wildbit/scss-sorting.json');
 
 gulp.task('cleanup', function () {
   return gulp.src(paths.styles.src + '**/*.scss')
@@ -46,9 +47,8 @@ gulp.task('cleanup', function () {
     [
       "@include retina",
       "@include mobile",
-      "@include ipad",
-      "@include mobile-and-ipad",
-      "@include smallscreen"
+      "@include tablet",
+      "@include desktop"
     ]
 ```
 
