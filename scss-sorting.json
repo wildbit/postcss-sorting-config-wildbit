@@ -137,7 +137,7 @@
       "@include medium",
       "@include ipad",
       "@include mobile-and-ipad",
-      "@include smallscreen"
+      "@include smallscreen",
       "@include large",
     ],
     [ "@media" ],
