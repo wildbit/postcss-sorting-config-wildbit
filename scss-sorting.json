@@ -138,7 +138,7 @@
       "@include ipad",
       "@include mobile-and-ipad",
       "@include smallscreen",
-      "@include large",
+      "@include large"
     ],
     [ "@media" ],
     [ ">child" ]
