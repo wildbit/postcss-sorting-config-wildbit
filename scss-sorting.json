@@ -130,11 +130,15 @@
       "..."
     ],
     [
+      "@include",
       "@include retina",
+      "@include small",
       "@include mobile",
+      "@include medium",
       "@include ipad",
       "@include mobile-and-ipad",
       "@include smallscreen"
+      "@include large",
     ],
     [ "@media" ],
     [ ">child" ]
