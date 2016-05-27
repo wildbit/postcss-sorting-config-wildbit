@@ -3,8 +3,6 @@
   "empty-lines-before-comment": 1,
   "empty-lines-after-comment": 0,
   "sort-order": [
-    [ "$variable" ],
-    [ "@atrule" ],
     [ "content" ],
     [
       "order",
