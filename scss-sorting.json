@@ -3,6 +3,7 @@
   "empty-lines-before-comment": 1,
   "empty-lines-after-comment": 0,
   "sort-order": [
+    [ "@extend" ],
     [ "content" ],
     [
       "order",
