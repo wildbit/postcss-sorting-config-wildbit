@@ -1,3 +1,5 @@
+# ⚠️ Deprecated, as now [stylelint-config-wildbit](https://github.com/wildbit/stylelint-config-wildbit) relies on `stylelint-order` plugin.
+
 # Wildbit-specific config for postcss-sorting
 
 Sorts CSS properties in the order expected by [stylelint-config-wildbit](https://github.com/wildbit/stylelint-config-wildbit).
